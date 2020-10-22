@@ -1,44 +1,60 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Organizador de Atividades
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Conteúdo da Disciplina**: Greed<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0129058  |  Paulo Victor da Silva |
+| 17/0045943  |  Thallys Silva Braz |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Aplicação web que auxilia a organizar as atividades a serem feitas naquele dia de forma que consiga executar o máximo de atividades possíveis.
+Aplicação utiliza do algoritmo ambicioso Interval Scheduling para poder gerar uma solução ótima para esse problema.
+
+**Vídeo explicando sobre o projeto se encontra na pasta assets no repositório**
+
+## Demo online
+
+Fizemos o deploy da aplicação para o netlify para facilitar o uso sem precisar instalar nada na máquina do usuário.
+
+**Link para a demo:** https://organizadordeatividades.netlify.app/
+
+---
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+<p align="center">
+ <img src="https://github.com/projeto-de-algoritmos/Greed_OrganizadorDeAtividades/blob/master/assets/screen1.png" alt="Organizador de Atividades" /> 
+ <img src="https://github.com/projeto-de-algoritmos/Greed_OrganizadorDeAtividades/blob/master/assets/screen2.png"  alt="Organizador de Atividades" />
+ <img src="https://github.com/projeto-de-algoritmos/Greed_OrganizadorDeAtividades/blob/master/assets/screen3.png"  alt="Organizador de Atividades" />
+</p>
+
+---
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: JavaScript<br>
+**Framework**: React<br>
 
+Primeiro de tudo é necessário ter o NodeJS instalado e o Yarn.
+
+Depois, clone a aplicação. No terminal digite:
+```git clone https://github.com/projeto-de-algoritmos/Greed_OrganizadorDeAtividades.git``` 
+
+Entre na pasta da aplicação e execute os seguintes comandos no terminal:
+1. ```yarn``` (Instala todas as dependências necessárias)
+2. ```yarn start``` (Executa a aplicação)
+
+---
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+O usuário deve cadastrar todas as atividades que estão pendentes para aquele dia, inserindo o nome da atividade, o horário que a atividade precisa ser iníciada e o horário na qual a atividade será finalizada.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Após cadastrar todas as atividades, basta clicar no botão "Solução" para que a aplicação calcule uma ótima solução para esse problema.
+
+As atividades de fundo **azul** significam que **Foram cadastradas**.
+As atividades de fundo **verde** significam que **Fazem parte do conjunto solução**.
+
+
 
 
 

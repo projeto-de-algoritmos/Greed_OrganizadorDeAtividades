@@ -1,4 +1,8 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+interface TaskProps {
+  isSolution: boolean;
+}
 
 export const GlobalStyle = styled.div`
   * {
@@ -9,11 +13,8 @@ export const GlobalStyle = styled.div`
 
     -webkit-font-smoothing: antialiased
   }
-  body {
-
-  }
   body, input, button, label{
-    font: 16px "Poppins", sans-serif;
+    font: 16px "Roboto", sans-serif;
   }
   button {
     cursor: pointer;
@@ -21,33 +22,76 @@ export const GlobalStyle = styled.div`
 `;
 
 export const Container = styled.div`
+  background: #FDFCDC;
   width: 100%;
-  max-width: 1120px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    margin: 24px 0px;
+  }
+
+  button {
+    border-style: none;
+    background: #12A454;
+    height: 30px;
+    width: 15%;
+    color: #fff;
+    margin-top: 8px;
+  }
 `;
 
-export const FormContainer = styled.form`
+export const ISTitle = styled.h1`
+  margin-bottom: 24px;
 
+`;
+
+export const ISDescription = styled.span`
+  font-size: 20px;
+  margin-bottom: 8px;
+`;
+
+export const ISInstructions = styled.span`
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+`;
+
+
+
+export const FormContainer = styled.form`
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  #start, #end {
+    width: 130px;
+  }
+
   label {
     margin: 0px 8px;
   }
 
   button {
     margin-left: 8px;
+    background: #363f5f;
+    margin-top: 0px;
   }
 `;
 
 export const TableContainer = styled.section`
-  margin-top: 64px;
+  margin-top: 30px;
   table {
     width: 100%;
+    min-width: 800px;
     border-spacing: 0 8px;
     th {
-      color: #969cb3;
+      color: #363f5f;
       font-weight: normal;
       padding: 20px 32px;
       text-align: left;
@@ -57,10 +101,9 @@ export const TableContainer = styled.section`
     td {
       padding: 20px 32px;
       border: 0;
-      background: #E5E5E5;
       font-size: 16px;
       font-weight: normal;
-      color: #363f5f;
+      color: #fff;
 
     }
     td:first-child {
@@ -70,4 +113,16 @@ export const TableContainer = styled.section`
       border-radius: 0 8px 8px 0;
     }
   }
+`;
+
+export const Tr = styled.tr<TaskProps>`
+  background-color: #969cb3;
+  ${props => props.isSolution && css`
+  background-color: #12A454;
+  `}
+  
+`;
+
+export const Empty = styled.span`
+  color: #363f5f;
 `;
