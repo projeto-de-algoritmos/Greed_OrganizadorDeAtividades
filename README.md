@@ -25,9 +25,9 @@ Fizemos o deploy da aplicação para o netlify para facilitar o uso sem precisar
 ## Screenshots
 
 <p align="center">
- <img src="https://github.com/projeto-de-algoritmos/Greed_OrganizadorDeAtividades/blob/master/assets/screen1.png" alt="Organizador de Atividades" /> 
- <img src="https://github.com/projeto-de-algoritmos/Greed_OrganizadorDeAtividades/blob/master/assets/screen2.png"  alt="Organizador de Atividades" />
- <img src="https://github.com/projeto-de-algoritmos/Greed_OrganizadorDeAtividades/blob/master/assets/screen3.png"  alt="Organizador de Atividades" />
+ <img src="https://github.com/projeto-de-algoritmos/Greed_OrganizadorDeAtividades/blob/main/assets/screen1.png" alt="Organizador de Atividades" /> 
+ <img src="https://github.com/projeto-de-algoritmos/Greed_OrganizadorDeAtividades/blob/main/assets/screen2.png"  alt="Organizador de Atividades" />
+ <img src="https://github.com/projeto-de-algoritmos/Greed_OrganizadorDeAtividades/blob/main/assets/screen3.png"  alt="Organizador de Atividades" />
 </p>
 
 ---
