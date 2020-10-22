@@ -51,8 +51,8 @@ O usuário deve cadastrar todas as atividades que estão pendentes para aquele d
 
 Após cadastrar todas as atividades, basta clicar no botão "Solução" para que a aplicação calcule uma ótima solução para esse problema.
 
-As atividades de fundo **azul** significam que **Foram cadastradas**.
-As atividades de fundo **verde** significam que **Fazem parte do conjunto solução**.
+As atividades de fundo **azuis** significam que **Foram cadastradas**.
+As atividades de fundo **verdes** significam que **Fazem parte do conjunto solução**.
 
 
 
