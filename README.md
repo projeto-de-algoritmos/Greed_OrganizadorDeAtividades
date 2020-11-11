@@ -16,7 +16,7 @@ Aplicação utiliza do algoritmo ambicioso Interval Scheduling para poder gerar 
 
 ## Demo online
 
-Fizemos o deploy da aplicação para o netlify para facilitar o uso sem precisar instalar nada na máquina do usuário.
+Fiz o deploy da aplicação para o netlify para facilitar o uso sem precisar instalar nada na máquina do usuário.
 
 **Link para a demo:** https://organizadordeatividades.netlify.app/
 
