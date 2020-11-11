@@ -6,7 +6,7 @@
 |Matrícula | Aluno |
 | -- | -- |
 | 18/0129058  |  Paulo Victor da Silva |
-| 17/0045943  |  Thallys Silva Braz |
+| --/-------  |  ---- ---- ---- |
 
 ## Sobre 
 Aplicação web que auxilia a organizar as atividades a serem feitas naquele dia de forma que consiga executar o máximo de atividades possíveis.
